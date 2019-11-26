@@ -11,5 +11,62 @@
  * It is generally better to create a new file per style scope.
  *
  */
+ $navbar-default-bg: #006bb3;
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+ #logo {
+   float: left;
+   font-size: 1.7em;
+   color: #fff;
+   text-transform: uppercase;
+   letter-spacing: -1px;
+   font-weight: bold;
+ }
+ #logo:hover{
+   color: #fff;
+   text-decoration: none;
+ }
+ .center{
+   text-align: center;
+ }
+
+ .jumbotron{
+   background-image: asset-url('planet-3840x2160-galaxy-stars-4k-16848.jpg');
+   background-size: cover;
+   height: 550px;
+ }
+
+ .jumbotron h1{
+  color: #fff;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+ }
+
+ .btn-xlarge{
+   background-color: #006bb3;
+ }
+
+ footer{
+   margin-top: 45px;
+   padding-top: 5px;
+   border-top: 1px solid #eaeaea;
+   color: #777;
+
+ }
+ footer a:hover{
+   color: #222;
+ }
+
+ footer small{
+   float: left;
+ }
+ footer ul{
+   float: right;
+   list-style: none;
+ }
+ footer ul li{
+   float: left;
+   margin-left: 15px;
+ }
