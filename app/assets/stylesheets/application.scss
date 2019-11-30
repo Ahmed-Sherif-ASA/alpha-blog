@@ -23,6 +23,13 @@
    letter-spacing: -1px;
    font-weight: bold;
  }
+
+ .navigation-bar-extras{
+  float: left;
+  font-size: 1em;
+  color: #fff;
+  letter-spacing: -0.5px;
+ }
  #navigation-items{
   float: left;
   font-size: 1em;
@@ -54,6 +61,10 @@
    background-color: #006bb3;
  }
 
+ .article-meta-details{
+   border-top: 1px solid #eaeaea;
+   margin-top: 15px;
+ }
  .article-actions{
    border-top: 1px solid #eaeaea;
    padding-top: 5px;
